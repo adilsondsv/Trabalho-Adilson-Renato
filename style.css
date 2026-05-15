@@ -3,15 +3,19 @@
     text-align: center;
     background-color: #ffffff;
     font-family: 'Creepster', cursive;
+    font-size: 40px;
+}
+
+.subtitulo_medidas{
+    color: rgb(255, 255, 255);
+    font-family: 'bebas neue', sans-serif;
+    display: flex;
+    justify-content: center;
     font-size: 30px;
 }
 
-.titulo_secundario{
-    background-color: #777777;
-    color: rgb(255, 255, 255);
-    border-radius: 15px;
-    margin-top: 15px;
-    padding: 5px;
+h1, h3{
+    margin: 7px;
 }
 
 body{
@@ -30,7 +34,7 @@ body{
 }
 
 .produtos{
-    width: 150px;
+    width: 600px;
     background-color: #ffffff;
     border-radius: 15px;
     padding: 20px;
@@ -39,11 +43,11 @@ body{
 }
 
 .produtos:hover{
-    transform: scale(1.1);
+    transform: scale(1.03);
 }
 
 .produtos img{
-    width: 150px;
+    width: 600px;
     height: auto;
     border-radius: 15px;
     padding: 0px;
@@ -72,21 +76,30 @@ body{
     padding: 5px;
     display: inline-flex;
     color: #ffffff;
-
+    font-size: 20px;
+    cursor: pointer;
 }
 
 .botao_comprar:hover{
     background-color: #777777;
 }
 
+nav{ /*container*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
 nav a{
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
-    border-radius: 15px;
-    padding: 5px;
+    padding: 6px;
     display: inline-flex;
-    transition: 0,5s;
+    transition: 0.5s;
 }
 
 nav a:hover{
@@ -105,5 +118,27 @@ nav a:hover{
 .email{
     background-color: white;
     color: #000000;
-    padding: 50px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.botao_enviar{
+    cursor: pointer; 
+}
+
+.logo_direita_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 0px 250px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.logo_direita{
+    font-family: 'Creepster', cursive;
+    color: black;
+    font-size: 36px;
 }
