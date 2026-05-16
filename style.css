@@ -123,8 +123,18 @@ nav a:hover{
     cursor: pointer;
 }
 
+.botao_enviar_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .botao_enviar{
-    cursor: pointer; 
+    background-color: black;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 24px;
 }
 
 .logo_direita_container{
@@ -152,6 +162,24 @@ nav a:hover{
 .contato{
     background-color: white;
     color: #000000;
-    padding: 15px;
+    padding: 50px;
     border-radius: 10px;
+    font-size: 24px;
+}
+
+.email_senha{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 7px;
+    border-radius: 10px;
+    width: 400px;
+    height: 30px;
+}
+
+.email_spam{
+    background-color: #000000;
+    color: #ffffff;
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
 }

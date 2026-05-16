@@ -13,42 +13,40 @@
         <h1>R A N O C K</h1>
     </header><br>
 
-    <h1 class="subtitulo_medidas">Faça seu cadastro:</h1><br>
-
     <nav>
         <a href="index.html"><strong>Inicio</strong></a>
         <a href="guia_medidas.html"><strong>Guia de medidas</strong></a>
         <a href="contato.html"><strong>Contato</strong></a>
-    </nav><br><br>
+    </nav><br>
+
+    <h1 class="subtitulo_medidas">Faça seu cadastro:</h1><br>
+
+    
 
     <div class="container_contato">
+
+    <form>
      <fieldset class="contato"><strong>
-        <label for="nomepessoa">Nome:</label>
-        <input type="text" name="nomepessoa" 
-        id="nomepessoa" minlenght="3" maxlength="15"
-        required placeholder="Informe seu nome"><br><br>
 
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email" placeholder="Informe seu email" required><br><br>
+        <label for="email">Email:</label><br>
+        <input class="email_senha" type="email" placeholder="Informe seu email" required><br><br>
         
-        <label>Ano de nascimento:</label>
-        <input type="number" id="Ano" name="ano" max="2026" min="1900" placeholder=""><br><br>
+        <label for="senha">Informe sua senha:</label><br>
+        <input class="email_senha" type="password" placeholder="Informe sua senha" required><br><br>
 
-        <label>Telefone:</label>
-        <input type="tel" name="telefone" id="telefone" placeholder="Informe seu telefone"><br><br>
-        
-        <label for="senha">Informe sua senha:</label>
-        <input type="password" id="senha" name="senha"><br><br>
-
-        <button type="submit" class="botao_enviar">Enviar</button>
-        <button type="reset" class="botao_enviar">Limpar</button>
+        <div class="botao_enviar_container">
+        <button type="submit" class="botao_enviar">Iniciar sessão</button>
      </fieldset></strong>
+     </div>
+     </form>
+
     </div><br><br><br><br>
 
     <div class="logo_direita_container">
+        
     <footer class="email">
-          <label for="email"><strong>Entre na nossa lista e receba coleções exclusivas:</strong></label>
-        <input type="email" name="email" id="email" required placeholder="Informe seu email">
+          <label for="email" class="email_senha"><strong>Entre na nossa lista e receba coleções exclusivas:</strong></label>
+        <input class="email_spam" type="email" id="email" required placeholder="Informe seu email">
          <button type="submit" class="botao_enviar">Enviar</button>
     </footer>
 
