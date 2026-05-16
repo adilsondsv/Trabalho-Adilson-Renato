@@ -2,8 +2,8 @@
     color: rgb(0, 0, 0);
     text-align: center;
     background-color: #ffffff;
-    font-family: 'Creepster', cursive;
-    font-size: 40px;
+    font-family: 'Stalinist One', sans-serif;
+    font-size: 30px;
 }
 
 .subtitulo_medidas{
@@ -138,7 +138,20 @@ nav a:hover{
 }
 
 .logo_direita{
-    font-family: 'Creepster', cursive;
+    font-family: 'Stalinist One', sans-serif;
     color: black;
-    font-size: 36px;
+    font-size: 30px;
+}
+
+.container_contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato{
+    background-color: white;
+    color: #000000;
+    padding: 15px;
+    border-radius: 10px;
 }
