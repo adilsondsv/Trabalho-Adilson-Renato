@@ -133,7 +133,7 @@ nav a:hover{
     background-color: black;
     color: #ffffff;
     cursor: pointer;
-    border-radius: 15px;
+    border-radius: px;
     font-size: 24px;
 }
 
@@ -171,7 +171,7 @@ nav a:hover{
     background-color: #000000;
     color: #ffffff;
     padding: 7px;
-    border-radius: 10px;
+    border-radius: px;
     width: 400px;
     height: 30px;
 }
@@ -181,5 +181,5 @@ nav a:hover{
     color: #ffffff;
     width: 200px;
     height: 30px;
-    border-radius: 15px;
+    border-radius: px;
 }
